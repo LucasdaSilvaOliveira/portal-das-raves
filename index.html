@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Portal Das Raves</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portal das Raves</h1>
+        <p>Sejam bem-vindo ao meu mundo !</p>
+    </header>
+    <main>
+        <p>Preencha para continuar !</p>
+        <form action="#" method="post" id="form">
+            <p>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+            </p>
+            <p>
+                <label for="sobrenome">Sobrenome: </label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </p>
+            <p>
+                <label for="idade">Idade: </label>
+                <input type="number" name="idade" id="idade">
+            </p>
+        </form>
+        <p class="after_msg hide"></p>
+        <div id="buttons">
+            <input type="button" value="Limpar" class="btn" id="button_limpar">
+            <input type="button" value="Continuar" class="btn" id="button_enviar">
+        </div>
+        <div id="button_back" class="hide">
+            <input type="button" value="Voltar" class="btn">
+        </div>
+    </main>
+    <div id="div_continuar"><a href="pag2/paginicial.html" id="continuar" class="hide">Continuar</a></div>
+</body>
+<script src="script.js"></script>
+</html>

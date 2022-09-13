@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(imagens/purple-bg-\ universe.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+header {
+    color: #da4cda;
+    background-color: #5c0c519c;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+nav a {
+    color: #ddccdd;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #000000a2;
+    font-size: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+header h1 {
+    font-size: 60px;
+    text-shadow: 3px 3px 4px #000000a8;
+}
+#inicio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+    
+}
+#inicio_text {
+    font-size: 25px;
+    color: white;
+    background-color: #0000005d;
+    width: 400px;
+    line-height: 45px;
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+#inicio_text a {
+    color: #4b104b;
+}
+#gato_img {
+    border-radius: 500px;
+    width: 500px;
+    height: 500px;
+}
+@media (max-width: 600px) {
+    body {
+        background-image: url(imagens/bg-purple-screen-cell.jpg);
+    }
+    header h1 {
+        color: #b871ae;
+    }
+    #gato_img {
+        width: 400px;
+        height: 400px;
+    }
+    #inicio_text {
+        border-radius: 0px;
+    }
+    #inicio {
+        padding-top: 300px;
+    }
+}
+#vertentes {
+    background-image: url(imagens/cosmic-universe.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px 10px 0px 0px;
+}
+#vertentes_text{
+    background-color: #440a0a94;
+    padding: 10px 50px;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #00000093;
+    border-radius: 10px;
+}
+#vertentes h1 {
+    font-size: 100px;
+    text-shadow: 3px 3px 4px #0000007c;
+    text-align: center;
+}
+#vertentes p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-indent: 20px;
+}
+.vertentes_imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dj_foto  {
+    width: 480px;
+    height: 250px;
+}
+.class_dj p {
+    text-align: center;
+}
+.class_dj a {
+    text-decoration: none;
+    color: white;
+}
+.class_dj a:hover {
+    text-decoration: underline;
+    color: #b49696;
+}
+@media (max-width: 600px) {
+    .dj_foto {
+        width: 300px;
+        height: 180px;
+    }
+}
+#fale_conosco {
+    background-color: #ffffff91;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+#fale_conosco h1 {
+    text-align: center;
+    font-size: 80px;
+    color: black;
+    font-weight: normal;
+    text-shadow: 3px 3px 4px #0000007c;
+}
+#wpp {
+    width: 20px;
+    height: 20px;
+}
+#p_celular {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: underline;
+}
+#fale_conosco_text {
+    margin-top: 70px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 1px 1px 3px #00000080;
+}
+#contato_div1 {
+    line-height: 30px;
+}
+#contato_div2 {
+    line-height: 40px;
+}
+footer {
+    background-color: #4b104b;
+    color: white;
+    text-align: center;
+}
